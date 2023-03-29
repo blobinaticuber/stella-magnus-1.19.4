@@ -4,7 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
+// This is a test comment!
 public class StellaMagnus implements ModInitializer {
 	public static final String MOD_ID = "stella-magnus";
 	public static final Logger LOGGER = LoggerFactory.getLogger("stella-magnus");

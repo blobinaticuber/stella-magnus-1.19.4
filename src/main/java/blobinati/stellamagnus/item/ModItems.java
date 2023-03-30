@@ -11,7 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item MAGNETITE = registerItem("magnetite",
+    public static final Item ZIRCONIUM = registerItem("zirconium",
             new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
@@ -19,7 +19,7 @@ public class ModItems {
     }
 
     public static void addItemsToItemGroup() {
-        addToItemGroup(ItemGroups.INGREDIENTS, MAGNETITE);
+        addToItemGroup(ItemGroups.INGREDIENTS, ZIRCONIUM);
 
     }
 

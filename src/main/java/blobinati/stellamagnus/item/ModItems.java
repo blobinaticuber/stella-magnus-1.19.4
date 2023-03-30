@@ -20,6 +20,7 @@ public class ModItems {
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.INGREDIENTS, ZIRCONIUM);
+        addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM);
 
     }
 

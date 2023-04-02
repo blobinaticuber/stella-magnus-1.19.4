@@ -13,6 +13,8 @@ import net.minecraft.util.Identifier;
 public class ModItems {
     public static final Item ZIRCONIUM = registerItem("zirconium",
             new Item(new FabricItemSettings()));
+    public static final Item ZIRCONIUM_INGOT = registerItem("zirconium_ingot",
+            new Item(new FabricItemSettings()));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM, new Identifier(StellaMagnus.MOD_ID, name), item);
@@ -20,7 +22,9 @@ public class ModItems {
 
     public static void addItemsToItemGroup() {
         addToItemGroup(ItemGroups.INGREDIENTS, ZIRCONIUM);
+        addToItemGroup(ItemGroups.INGREDIENTS, ZIRCONIUM_INGOT);
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM);
+        addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_INGOT);
 
     }
 

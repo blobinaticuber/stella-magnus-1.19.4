@@ -1,5 +1,6 @@
 package blobinati.stellamagnus;
 
+import blobinati.stellamagnus.block.ModBlocks;
 import blobinati.stellamagnus.item.ModItemGroup;
 import blobinati.stellamagnus.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,7 +15,7 @@ public class StellaMagnus implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroup.registerItemGroups();
-		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }

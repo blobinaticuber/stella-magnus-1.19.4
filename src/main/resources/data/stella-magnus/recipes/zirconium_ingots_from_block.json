@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "zirconium_ingot",
+  "ingredients": [
+    {
+      "item": "stella-magnus:zirconium_block"
+    }
+  ],
+  "result": {
+    "item": "stella-magnus:zirconium_ingot",
+    "count": 9
+  },
+  "show_notification": true
+}
+

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "stella-magnus:zirconium",
+          "name": "stella-magnus:zirconium_shard",
           "functions": [
             {
               "function": "set_count",

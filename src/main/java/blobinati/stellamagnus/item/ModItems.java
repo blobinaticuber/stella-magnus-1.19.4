@@ -11,7 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static final Item ZIRCONIUM = registerItem("zirconium",
+    public static final Item ZIRCONIUM_SHARD = registerItem("zirconium_shard",
             new Item(new FabricItemSettings()));
     public static final Item ZIRCONIUM_INGOT = registerItem("zirconium_ingot",
             new Item(new FabricItemSettings()));
@@ -21,9 +21,9 @@ public class ModItems {
     }
 
     public static void addItemsToItemGroup() {
-        addToItemGroup(ItemGroups.INGREDIENTS, ZIRCONIUM);
+        addToItemGroup(ItemGroups.INGREDIENTS, ZIRCONIUM_SHARD);
         addToItemGroup(ItemGroups.INGREDIENTS, ZIRCONIUM_INGOT);
-        addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM);
+        addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_SHARD);
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_INGOT);
 
     }

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "stella-magnus:zirconium_shard_block"
+    }
+  ],
+  "result": {
+    "item": "stella-magnus:zirconium_shard",
+    "count": 9
+  },
+  "show_notification": true
+}

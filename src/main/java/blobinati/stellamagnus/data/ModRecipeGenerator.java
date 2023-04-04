@@ -16,6 +16,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
-        offerSmelting(exporter, List.of(ModItems.ZIRCONIUM_SHARD), RecipeCategory.MISC, ModItems.ZIRCONIUM_INGOT, 0.7f, 200, "stella-magnus");
+        // my automatic JSON generating thing doesn't work for some reason
+        //offerSmelting(exporter, List.of(ModItems.ZIRCONIUM_SHARD), RecipeCategory.MISC, ModItems.ZIRCONIUM_INGOT, 0.7f, 200, "stella-magnus");
     }
 }

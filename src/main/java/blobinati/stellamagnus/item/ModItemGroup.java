@@ -11,8 +11,7 @@ public class ModItemGroup {
     public static ItemGroup STELLAMAGNUS;
 
     public static void registerItemGroups() {
-        // This has the zirconium texture on the item tab, and I'm not sure why
-        STELLAMAGNUS = FabricItemGroup.builder(new Identifier(StellaMagnus.MOD_ID, "tab_icon"))
+        STELLAMAGNUS = FabricItemGroup.builder(new Identifier(StellaMagnus.MOD_ID, "zirconium_shard"))
                 .displayName(Text.literal("Stella Magnus"))
                 .icon(() -> new ItemStack(ModItems.ZIRCONIUM_SHARD)).build();
     }

@@ -3,5 +3,6 @@
   "item.stella-magnus.zirconium_ingot": "Zirconium Ingot",
   "block.stella-magnus.zirconium_block": "Block of Zirconium",
   "block.stella-magnus.lunar_basalt": "Lunar Basalt",
-  "block.stella-magnus.lunar_basalt_zirconium_ore": "Lunar Basalt Zirconium Ore"
+  "block.stella-magnus.lunar_basalt_zirconium_ore": "Lunar Basalt Zirconium Ore",
+  "block.stella-magnus.lunar_regolith": "Lunar Regolith"
 }

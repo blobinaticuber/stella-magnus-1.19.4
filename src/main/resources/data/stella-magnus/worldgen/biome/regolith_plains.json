@@ -23,7 +23,8 @@
       "minecraft:large_dripstone",
       "minecraft:dripstone_cluster",
       "minecraft:pointed_dripstone",
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "stella-magnus:moon_zirconium_ore"
     ]
 
   ]

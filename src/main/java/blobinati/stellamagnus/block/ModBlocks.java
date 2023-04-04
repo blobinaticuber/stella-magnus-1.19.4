@@ -26,7 +26,7 @@ public class ModBlocks{
             new ExperienceDroppingBlock(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool(),
                 UniformIntProvider.create(3,7)), ModItemGroup.STELLAMAGNUS);
     public static final Block ZIRCONIUM_SHARD_BLOCK = registerBlock("zirconium_shard_block",
-            new Block(FabricBlockSettings.of(Material.AMETHYST).strength(4.0f).requiresTool()), ModItemGroup.STELLAMAGNUS);
+            new Block(FabricBlockSettings.of(Material.AMETHYST).strength(4.0f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)), ModItemGroup.STELLAMAGNUS);
     public static final FallingBlock LUNAR_REGOLITH = (FallingBlock) registerBlock("lunar_regolith",
             new FallingBlock(AbstractBlock.Settings.of(Material.AGGREGATE).strength(4.0f).requiresTool().sounds(BlockSoundGroup.SAND)), ModItemGroup.STELLAMAGNUS);
             //new SandBlock(FabricBlockSettings.of(Material.SOIL).strength(4.0f).requiresTool()).sounds(BlockSoundGroup.SAND), ModItemGroup.STELLAMAGNUS);

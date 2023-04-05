@@ -12,7 +12,9 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        oreDrops(ModBlocks.LUNAR_BASALT_ZIRCONIUM_ORE, ModItems.ZIRCONIUM_SHARD);
+        // generates JSON loot table files for the following blocks:
+        addDrop(ModBlocks.LUNAR_BASALT_ZIRCONIUM_ORE, oreDrops(ModBlocks.LUNAR_BASALT_ZIRCONIUM_ORE, ModItems.ZIRCONIUM_SHARD));
         addDrop(ModBlocks.ZIRCONIUM_BLOCK);
+        addDrop(ModBlocks.ZIRCONIUM_SHARD_BLOCK);
     }
 }

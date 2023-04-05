@@ -16,6 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ZIRCONIUM_BLOCK);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ZIRCONIUM_SHARD_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_BASALT);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_BASALT_ZIRCONIUM_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_REGOLITH);

@@ -1,10 +1,12 @@
 package blobinati.stellamagnus;
 
 import blobinati.stellamagnus.block.ModBlocks;
+import blobinati.stellamagnus.data.ModLootTableGenerator;
 import blobinati.stellamagnus.item.ModItemGroup;
 import blobinati.stellamagnus.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.block.Blocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 // This is a test comment!
@@ -17,6 +19,5 @@ public class StellaMagnus implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-
 	}
 }

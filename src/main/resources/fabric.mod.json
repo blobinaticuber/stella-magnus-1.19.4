@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "stellamagnus",
+	"id": "stella-magnus",
 	"version": "${version}",
 	"name": "Stella Magnus",
 	"description": "Stella Magnus is a mod that takes old mods like Galacticraft to the next level!",
@@ -23,6 +23,7 @@
 		],
 		"fabric-datagen": [
 			"blobinati.stellamagnus.StellaMagnusDataGenerator"
+
 		]
 	},
 	"mixins": [

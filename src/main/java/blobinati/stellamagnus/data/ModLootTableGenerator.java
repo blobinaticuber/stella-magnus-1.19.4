@@ -16,5 +16,7 @@ public class ModLootTableGenerator extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.LUNAR_BASALT_ZIRCONIUM_ORE, oreDrops(ModBlocks.LUNAR_BASALT_ZIRCONIUM_ORE, ModItems.ZIRCONIUM_SHARD));
         addDrop(ModBlocks.ZIRCONIUM_BLOCK);
         addDrop(ModBlocks.ZIRCONIUM_SHARD_BLOCK);
+        addDrop(ModBlocks.LUNAR_REGOLITH);
+        addDrop(ModBlocks.LUNAR_BASALT);
     }
 }

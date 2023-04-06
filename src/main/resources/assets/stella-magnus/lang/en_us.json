@@ -1,7 +1,9 @@
 {
   "item.stella-magnus.zirconium_shard": "Zirconium Shard",
   "item.stella-magnus.zirconium_ingot": "Zirconium Ingot",
+
   "item.stella-magnus.zirconium_sword": "Zirconium Sword",
+  "item.stella-magnus.zirconium_pickaxe": "Zirconium Pickaxe",
 
   "block.stella-magnus.zirconium_block": "Block of Zirconium",
   "block.stella-magnus.lunar_basalt": "Lunar Basalt",

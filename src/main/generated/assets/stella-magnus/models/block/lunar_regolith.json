@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "stella-magnus:block/lunar_regolith"
+  }
+}

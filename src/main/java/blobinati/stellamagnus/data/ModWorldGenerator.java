@@ -12,6 +12,10 @@ public class ModWorldGenerator extends FabricDynamicRegistryProvider {
         super(output, registriesFuture);
     }
 
+    public static void generateModWorldGen() {
+        ModOreGenerator.generateOres();
+    }
+
     @Override
     protected void configure(RegistryWrapper.WrapperLookup registries, Entries entries) {
         // here goes future world gen

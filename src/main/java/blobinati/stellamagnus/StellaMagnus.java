@@ -2,6 +2,7 @@ package blobinati.stellamagnus;
 
 import blobinati.stellamagnus.block.ModBlocks;
 import blobinati.stellamagnus.data.ModLootTableGenerator;
+import blobinati.stellamagnus.data.ModWorldGenerator;
 import blobinati.stellamagnus.item.ModItemGroup;
 import blobinati.stellamagnus.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,5 +20,6 @@ public class StellaMagnus implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGenerator.generateModWorldGen();
 	}
 }

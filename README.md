@@ -12,3 +12,6 @@ Minecraft's progression is pretty boring. You get Iron gear, Diamond Gear, do en
 - Galacticraft
 - Ad Astra
 - Terraria
+- Star Trek
+- Star Wars
+- Stargate

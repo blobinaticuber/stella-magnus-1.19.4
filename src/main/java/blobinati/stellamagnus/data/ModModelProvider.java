@@ -26,5 +26,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.ZIRCONIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ZIRCONIUM_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ZIRCONIUM_SWORD, Models.HANDHELD);
     }
 }

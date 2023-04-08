@@ -19,6 +19,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ZIRCONIUM_SHARD_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_BASALT);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_BASALT_ZIRCONIUM_ORE);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_BASALT_CORUNDUM_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_REGOLITH);
     }
 
@@ -26,6 +27,7 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.ZIRCONIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ZIRCONIUM_SHARD, Models.GENERATED);
+        itemModelGenerator.register(ModItems.CORUNDUM, Models.GENERATED);
         itemModelGenerator.register(ModItems.ZIRCONIUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ZIRCONIUM_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ZIRCONIUM_AXE, Models.HANDHELD);

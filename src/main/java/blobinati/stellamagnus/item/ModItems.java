@@ -13,6 +13,8 @@ public class ModItems {
             new Item(new FabricItemSettings()));
     public static final Item ZIRCONIUM_INGOT = registerItem("zirconium_ingot",
             new Item(new FabricItemSettings()));
+    public static final Item CORUNDUM = registerItem("corundum",
+            new Item(new FabricItemSettings()));
 
     public static final Item ZIRCONIUM_SWORD = registerItem("zirconium_sword",
             new SwordItem(ModToolMaterials.ZIRCONIUM, 3, -2.2f,
@@ -36,6 +38,8 @@ public class ModItems {
     public static void addItemsToItemGroup() {
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_SHARD);
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_INGOT);
+
+        addToItemGroup(ModItemGroup.STELLAMAGNUS, CORUNDUM);
 
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_SWORD);
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_PICKAXE);

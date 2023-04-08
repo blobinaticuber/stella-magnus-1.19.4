@@ -10,6 +10,7 @@ public class ModMiningLevels /* extends MiningToolItem*/ {
 
 
     public static final int ZIRCONIUM = 5;
+    public static final int CORUNDUM = 6;
 
 
 

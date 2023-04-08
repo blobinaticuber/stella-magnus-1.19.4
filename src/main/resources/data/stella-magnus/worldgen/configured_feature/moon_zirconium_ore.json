@@ -1,18 +1,19 @@
 {
   "type": "minecraft:ore",
   "config": {
-    "size": 11,
-    "discard_chance_on_air_exposure": 0,
+    "discard_chance_on_air_exposure": 0.0,
+    "size": 12,
     "targets": [
       {
+        "state": {
+          "Name": "stella-magnus:moon_zirconium_ore"
+        },
         "target": {
           "predicate_type": "minecraft:tag_match",
           "tag": "stella-magnus:moon_ore_replaceables"
-        },
-        "state": {
-          "Name": "stella-magnus:moon_zirconium_ore"
         }
       }
     ]
   }
 }
+

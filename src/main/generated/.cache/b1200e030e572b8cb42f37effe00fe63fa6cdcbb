@@ -1,9 +1,10 @@
-// 1.19.4	2023-04-07T21:20:10.8186747	Stella Magnus/Recipes
+// 1.19.4	2023-04-07T22:29:24.6650367	Stella Magnus/Recipes
 517df1d758f6ac5568900965b3a5f070ecee9919 data\stella-magnus\advancements\recipes\building_blocks\zirconium_ingot.json
 ed2754f795c8a42ccb1961bbe7803bb9a2713dd6 data\stella-magnus\recipes\zirconium_shard_block.json
 9e5d6c7e46b6c399389056b81ed5a74b37600dd3 data\stella-magnus\advancements\recipes\tools\zirconium_pickaxe.json
 10855633ac3c57d627882d23b53999006e671a3a data\stella-magnus\recipes\zirconium_block.json
 da05136634db5374de0618dc6d652615886d0589 data\stella-magnus\recipes\zirconium_shard.json
+2a9026f1885755a7cb06e09dcbdce992098fe178 data\stella-magnus\advancements\recipes\misc\zirconium_ingot_from_blasting_zirconium_shard.json
 7d3c691c4a65188ccebe0313bcf8c834c8911a58 data\stella-magnus\recipes\zirconium_ingot_from_smelting_zirconium_shard.json
 97bd4c0e4dd1955168492dda0fc2cd858e158737 data\stella-magnus\advancements\recipes\building_blocks\zirconium_shard_block.json
 bf0f7886de5a7647caae6be60db29e95d5e9654a data\stella-magnus\advancements\recipes\misc\zirconium_ingot_from_smelting_zirconium_shard.json
@@ -13,6 +14,7 @@ ab1f51385bfbe82cb2bc060f0f9a69d8afef40c1 data\stella-magnus\advancements\recipes
 d686bbc5d0eb703ea3e378a78db2fb898ef989a0 data\stella-magnus\recipes\zirconium_pickaxe.json
 7ce997aea6157e8a2f833bd9e7753888377a5f3c data\stella-magnus\advancements\recipes\tools\zirconium_sword.json
 00ea8cac00b3adf1d4b9e4bd6efab488b3faade4 data\stella-magnus\advancements\recipes\tools\zirconium_shovel.json
+acf0564e78df44931b978690265c8042ac1a65af data\stella-magnus\recipes\zirconium_ingot_from_blasting_zirconium_shard.json
 93d52b5d83deee017c2300e135bcdf2cb4378a52 data\stella-magnus\advancements\recipes\tools\zirconium_axe.json
 e40cc6093493323979a40571eedc5fa35a6ff26c data\stella-magnus\advancements\recipes\tools\zirconium_hoe.json
 39a2d40558439ef73633dc928df8d486df4bd66b data\stella-magnus\recipes\zirconium_ingot.json

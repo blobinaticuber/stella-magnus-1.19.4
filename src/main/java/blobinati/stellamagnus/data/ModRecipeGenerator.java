@@ -20,6 +20,7 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
+        offerBlasting(exporter, List.of(ModItems.ZIRCONIUM_SHARD), RecipeCategory.MISC, ModItems.ZIRCONIUM_INGOT, 0.7f, 100, "stella-magnus");
         offerSmelting(exporter, List.of(ModItems.ZIRCONIUM_SHARD), RecipeCategory.MISC, ModItems.ZIRCONIUM_INGOT, 0.7f, 200, "stella-magnus");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ZIRCONIUM_SHARD, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ZIRCONIUM_SHARD_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ZIRCONIUM_INGOT, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ZIRCONIUM_BLOCK);

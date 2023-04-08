@@ -1,12 +1,12 @@
-// 1.19.4	2023-04-07T21:20:10.8166742	Stella Magnus/Model Definitions
+// 1.19.4	2023-04-07T22:29:24.6625253	Stella Magnus/Model Definitions
 326b5b37db9fab1826afa6eecc93e515daaf7160 assets\stella-magnus\models\item\zirconium_shovel.json
 ca350dd14e8ed9d0e063909c735097dd82cb1a81 assets\stella-magnus\models\item\lunar_basalt_corundum_ore.json
 04df8630f054d1657560ffa6a65da1c4a4e78957 assets\stella-magnus\models\item\zirconium_shard.json
 4ce7845875973fdc6d60780bd1279701ee9a82cd assets\stella-magnus\models\block\zirconium_block.json
 d153e2a276b8199d3559ba579ffc78bb1bb8eb74 assets\stella-magnus\models\item\lunar_basalt.json
-7e737302c2388fd2267b31848b15d06b2a10f475 assets\stella-magnus\models\block\zirconium_shard_block.json
 be41efbf7f3b68feb480dd8d7327e61479e52892 assets\stella-magnus\models\block\lunar_basalt_zirconium_ore.json
 83e2ce0bd510c15135944bc13c20445aa258513e assets\stella-magnus\models\item\zirconium_block.json
+7e737302c2388fd2267b31848b15d06b2a10f475 assets\stella-magnus\models\block\zirconium_shard_block.json
 24674e5a9830ab979d5797d4a7743a0d2bf7dd7f assets\stella-magnus\blockstates\lunar_basalt.json
 b0e3cc12dd62af926cd17ae146ea20e801049b6d assets\stella-magnus\models\item\zirconium_hoe.json
 96adde5cd3a7df9ab0af2b6fee5791cb09b0ba14 assets\stella-magnus\blockstates\zirconium_shard_block.json

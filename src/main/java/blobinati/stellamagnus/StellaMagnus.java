@@ -20,6 +20,6 @@ public class StellaMagnus implements ModInitializer {
 		ModItemGroup.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-		ModWorldGenerator.generateModWorldGen();
+		//ModWorldGenerator.generateModWorldGen();
 	}
 }

@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:zirconium_ingot"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_zirconium_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "stella-magnus:zirconium_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_zirconium_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:zirconium_ingot"
+    ]
+  }
+}

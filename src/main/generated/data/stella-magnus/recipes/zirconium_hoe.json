@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "Z": {
+      "item": "stella-magnus:zirconium_ingot"
+    }
+  },
+  "pattern": [
+    "ZZ ",
+    " S ",
+    " S "
+  ],
+  "result": {
+    "item": "stella-magnus:zirconium_hoe"
+  },
+  "show_notification": true
+}

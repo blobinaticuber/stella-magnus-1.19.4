@@ -22,13 +22,48 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         offerSmelting(exporter, List.of(ModItems.ZIRCONIUM_SHARD), RecipeCategory.MISC, ModItems.ZIRCONIUM_INGOT, 0.7f, 200, "stella-magnus");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ZIRCONIUM_SHARD, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ZIRCONIUM_SHARD_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ZIRCONIUM_INGOT, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ZIRCONIUM_BLOCK);
 
-        // JUST A BAD EXAMPLE
-//        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.LUNAR_REGOLITH)
-//                .pattern("AAA")
-//                .pattern("AAA")
-//                .pattern("AAA")
-//                .input('A', Items.STICK)
-//                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModBlocks.LUNAR_REGOLITH)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ZIRCONIUM_SWORD)
+                .pattern("Z")
+                .pattern("Z")
+                .pattern("S")
+                .input('Z', ModItems.ZIRCONIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.ZIRCONIUM_INGOT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.ZIRCONIUM_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ZIRCONIUM_PICKAXE)
+                .pattern("ZZZ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('Z', ModItems.ZIRCONIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.ZIRCONIUM_INGOT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.ZIRCONIUM_PICKAXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ZIRCONIUM_AXE)
+                .pattern(" ZZ")
+                .pattern(" SZ")
+                .pattern(" S ")
+                .input('Z', ModItems.ZIRCONIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.ZIRCONIUM_INGOT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.ZIRCONIUM_AXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ZIRCONIUM_SHOVEL)
+                .pattern(" Z ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('Z', ModItems.ZIRCONIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.ZIRCONIUM_INGOT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.ZIRCONIUM_SHOVEL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ZIRCONIUM_HOE)
+                .pattern("ZZ ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('Z', ModItems.ZIRCONIUM_INGOT)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.ZIRCONIUM_INGOT))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.ZIRCONIUM_HOE)));
+
     }
 }

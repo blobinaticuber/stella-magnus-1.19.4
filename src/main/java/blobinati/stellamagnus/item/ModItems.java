@@ -17,22 +17,18 @@ public class ModItems {
             new Item(new FabricItemSettings()));
 
     public static final Item ZIRCONIUM_SWORD = registerItem("zirconium_sword",
-            new SwordItem(ModToolMaterials.ZIRCONIUM, 3, -2.2f,
+            new SwordItem(ModToolMaterials.ZIRCONIUM, 6, -2.2f,
                     new FabricItemSettings()));
 
     public static final Item ZIRCONIUM_PICKAXE = registerItem("zirconium_pickaxe",
-            new PickaxeItem(ModToolMaterials.ZIRCONIUM, 1, -2.8f,
+            new PickaxeItem(ModToolMaterials.ZIRCONIUM, 3, -2.6f,
                     new FabricItemSettings()));
     public static final Item ZIRCONIUM_AXE = registerItem("zirconium_axe",
-            new AxeItem(ModToolMaterials.ZIRCONIUM, 5.0f, -3.0f,
+            new AxeItem(ModToolMaterials.ZIRCONIUM, 8, -2.8f,
                     new FabricItemSettings()));
     public static final Item ZIRCONIUM_SHOVEL = registerItem("zirconium_shovel",
-            new ShovelItem(ModToolMaterials.ZIRCONIUM, 1.5f, -3.0f,
+            new ShovelItem(ModToolMaterials.ZIRCONIUM, 3.5f, -2.8f,
                     new FabricItemSettings()));
-    public static final Item ZIRCONIUM_HOE = registerItem("zirconium_hoe",
-            new HoeItem(ModToolMaterials.ZIRCONIUM, -4, -0.0f,
-                    new FabricItemSettings()));
-
 
 
     public static void addItemsToItemGroup() {
@@ -45,7 +41,6 @@ public class ModItems {
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_PICKAXE);
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_AXE);
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_SHOVEL);
-        addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_HOE);
     }
     private static void addToItemGroup(ItemGroup group, Item item) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));

@@ -57,14 +57,6 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.ZIRCONIUM_INGOT))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.ZIRCONIUM_SHOVEL)));
-        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ZIRCONIUM_HOE)
-                .pattern("ZZ ")
-                .pattern(" S ")
-                .pattern(" S ")
-                .input('Z', ModItems.ZIRCONIUM_INGOT)
-                .input('S', Items.STICK)
-                .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.ZIRCONIUM_INGOT))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.ZIRCONIUM_HOE)));
 
     }
 }

@@ -1,6 +1,6 @@
-// 1.19.4	2023-04-07T22:29:24.6640308	Stella Magnus/Block Loot Tables
-11dbddd2d4d850075c5a9e85f01d32140ecebc67 data\stella-magnus\loot_tables\blocks\lunar_regolith.json
+// 1.19.4	2023-04-08T20:01:08.4220247	Stella Magnus/Block Loot Tables
 c0cc8ac74b3e96a6da9822c08a445f322857a451 data\stella-magnus\loot_tables\blocks\lunar_basalt.json
+11dbddd2d4d850075c5a9e85f01d32140ecebc67 data\stella-magnus\loot_tables\blocks\lunar_regolith.json
 4d06adaac0c07945661fcd95a502b9caba653c00 data\stella-magnus\loot_tables\blocks\zirconium_shard_block.json
 e002e22f369048dcb6fbee1845492e2975c7dfd8 data\stella-magnus\loot_tables\blocks\lunar_basalt_corundum_ore.json
 c0b8c353963433c716780756796be7b738408374 data\stella-magnus\loot_tables\blocks\lunar_basalt_zirconium_ore.json

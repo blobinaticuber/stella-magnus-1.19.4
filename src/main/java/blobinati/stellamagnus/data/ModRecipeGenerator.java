@@ -24,7 +24,9 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
         offerSmelting(exporter, List.of(ModItems.ZIRCONIUM_SHARD), RecipeCategory.MISC, ModItems.ZIRCONIUM_INGOT, 0.7f, 200, "stella-magnus");
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ZIRCONIUM_SHARD, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ZIRCONIUM_SHARD_BLOCK);
         offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.ZIRCONIUM_INGOT, RecipeCategory.BUILDING_BLOCKS, ModBlocks.ZIRCONIUM_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.BUILDING_BLOCKS, ModItems.CORUNDUM, RecipeCategory.BUILDING_BLOCKS, ModBlocks.CORUNDUM_BLOCK);
 
+        // ZIRCONIUM TOOLS
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.ZIRCONIUM_SWORD)
                 .pattern("Z")
                 .pattern("Z")
@@ -57,6 +59,40 @@ public class ModRecipeGenerator extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.ZIRCONIUM_INGOT))
                 .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.ZIRCONIUM_SHOVEL)));
+
+        // CORUNDUM TOOLS
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CORUNDUM_SWORD)
+                .pattern("Z")
+                .pattern("Z")
+                .pattern("S")
+                .input('Z', ModItems.CORUNDUM)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.CORUNDUM))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CORUNDUM_SWORD)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CORUNDUM_PICKAXE)
+                .pattern("ZZZ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('Z', ModItems.CORUNDUM)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.CORUNDUM))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CORUNDUM_PICKAXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CORUNDUM_AXE)
+                .pattern(" ZZ")
+                .pattern(" SZ")
+                .pattern(" S ")
+                .input('Z', ModItems.CORUNDUM)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.CORUNDUM))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CORUNDUM_AXE)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.CORUNDUM_SHOVEL)
+                .pattern(" Z ")
+                .pattern(" S ")
+                .pattern(" S ")
+                .input('Z', ModItems.CORUNDUM)
+                .input('S', Items.STICK)
+                .criterion(FabricRecipeProvider.hasItem(Items.STICK), FabricRecipeProvider.conditionsFromItem(ModItems.CORUNDUM))
+                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.CORUNDUM_SHOVEL)));
 
     }
 }

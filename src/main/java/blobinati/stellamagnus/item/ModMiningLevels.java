@@ -6,7 +6,7 @@ import net.minecraft.item.MiningToolItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.registry.tag.TagKey;
 
-public class ModMiningLevels /* extends MiningToolItem*/ {
+public class ModMiningLevels /* extends MiningToolItem */ {
 
 
     public static final int ZIRCONIUM = 5;

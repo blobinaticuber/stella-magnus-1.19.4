@@ -20,6 +20,8 @@ public class ModBlocks{
 
     public static final Block ZIRCONIUM_BLOCK = registerBlock("zirconium_block",
         new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().sounds(BlockSoundGroup.NETHERITE)), ModItemGroup.STELLAMAGNUS);
+    public static final Block CORUNDUM_BLOCK = registerBlock("corundum_block",
+            new Block(FabricBlockSettings.of(Material.AMETHYST).strength(4.0f).requiresTool().sounds(BlockSoundGroup.AMETHYST_BLOCK)), ModItemGroup.STELLAMAGNUS);
     public static final Block LUNAR_BASALT = registerBlock("lunar_basalt",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4.0f).requiresTool()), ModItemGroup.STELLAMAGNUS);
     public static final Block LUNAR_BASALT_ZIRCONIUM_ORE = registerBlock("lunar_basalt_zirconium_ore",

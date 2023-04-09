@@ -19,7 +19,6 @@ public class ModItems {
     public static final Item ZIRCONIUM_SWORD = registerItem("zirconium_sword",
             new SwordItem(ModToolMaterials.ZIRCONIUM, 6, -2.2f,
                     new FabricItemSettings()));
-
     public static final Item ZIRCONIUM_PICKAXE = registerItem("zirconium_pickaxe",
             new PickaxeItem(ModToolMaterials.ZIRCONIUM, 3, -2.6f,
                     new FabricItemSettings()));
@@ -29,6 +28,21 @@ public class ModItems {
     public static final Item ZIRCONIUM_SHOVEL = registerItem("zirconium_shovel",
             new ShovelItem(ModToolMaterials.ZIRCONIUM, 3.5f, -2.8f,
                     new FabricItemSettings()));
+
+
+    public static final Item CORUNDUM_SWORD = registerItem("corundum_sword",
+            new SwordItem(ModToolMaterials.CORUNDUM, 7, -2.2f,
+                    new FabricItemSettings()));
+    public static final Item CORUNDUM_PICKAXE = registerItem("corundum_pickaxe",
+            new PickaxeItem(ModToolMaterials.CORUNDUM, 4, -2.6f,
+                    new FabricItemSettings()));
+    public static final Item CORUNDUM_AXE = registerItem("corundum_axe",
+            new AxeItem(ModToolMaterials.CORUNDUM, 9, -2.8f,
+                    new FabricItemSettings()));
+    public static final Item CORUNDUM_SHOVEL = registerItem("corundum_shovel",
+            new ShovelItem(ModToolMaterials.CORUNDUM, 4.5f, -2.8f,
+                    new FabricItemSettings()));
+
 
 
     public static void addItemsToItemGroup() {
@@ -41,6 +55,11 @@ public class ModItems {
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_PICKAXE);
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_AXE);
         addToItemGroup(ModItemGroup.STELLAMAGNUS, ZIRCONIUM_SHOVEL);
+
+        addToItemGroup(ModItemGroup.STELLAMAGNUS, CORUNDUM_SWORD);
+        addToItemGroup(ModItemGroup.STELLAMAGNUS, CORUNDUM_PICKAXE);
+        addToItemGroup(ModItemGroup.STELLAMAGNUS, CORUNDUM_AXE);
+        addToItemGroup(ModItemGroup.STELLAMAGNUS, CORUNDUM_SHOVEL);
     }
     private static void addToItemGroup(ItemGroup group, Item item) {
         ItemGroupEvents.modifyEntriesEvent(group).register(entries -> entries.add(item));

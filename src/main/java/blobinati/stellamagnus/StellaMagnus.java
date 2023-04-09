@@ -30,7 +30,7 @@ public class StellaMagnus implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		//ModWorldGenerator.generateModWorldGen();
-		BiomeModifications.addFeature(ModBiomeSelectors.foundInMoon(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);
+		//BiomeModifications.addFeature(ModBiomeSelectors.foundInMoon(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);
 		//ModBiomeModifications.addFeature(ModBiomeSelectors.foundInMoon(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);
 	}
 }

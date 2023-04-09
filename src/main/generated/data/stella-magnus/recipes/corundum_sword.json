@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "Z": {
+      "item": "stella-magnus:corundum"
+    }
+  },
+  "pattern": [
+    "Z",
+    "Z",
+    "S"
+  ],
+  "result": {
+    "item": "stella-magnus:corundum_sword"
+  },
+  "show_notification": true
+}

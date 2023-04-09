@@ -16,6 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ZIRCONIUM_BLOCK);
+        blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CORUNDUM_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.ZIRCONIUM_SHARD_BLOCK);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_BASALT);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_BASALT_ZIRCONIUM_ORE);
@@ -28,9 +29,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.ZIRCONIUM_INGOT, Models.GENERATED);
         itemModelGenerator.register(ModItems.ZIRCONIUM_SHARD, Models.GENERATED);
         itemModelGenerator.register(ModItems.CORUNDUM, Models.GENERATED);
+
         itemModelGenerator.register(ModItems.ZIRCONIUM_SWORD, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ZIRCONIUM_PICKAXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ZIRCONIUM_AXE, Models.HANDHELD);
         itemModelGenerator.register(ModItems.ZIRCONIUM_SHOVEL, Models.HANDHELD);
+
+        itemModelGenerator.register(ModItems.CORUNDUM_SWORD, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CORUNDUM_PICKAXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CORUNDUM_AXE, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.CORUNDUM_SHOVEL, Models.HANDHELD);
     }
 }

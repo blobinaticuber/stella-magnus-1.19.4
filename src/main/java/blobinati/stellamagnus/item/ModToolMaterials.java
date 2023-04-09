@@ -16,7 +16,7 @@ public enum ModToolMaterials implements ToolMaterial {
 //    DIAMOND(MiningLevels.DIAMOND, 1561, 8.0f, 3.0f, 10, () -> Ingredient.ofItems(Items.DIAMOND)),
 //    GOLD(MiningLevels.WOOD, 32, 12.0f, 0.0f, 22, () -> Ingredient.ofItems(Items.GOLD_INGOT)),
 //    NETHERITE(MiningLevels.NETHERITE, 2031, 9.0f, 4.0f, 15, () -> Ingredient.ofItems(Items.NETHERITE_INGOT)),
-    ZIRCONIUM(ModMiningLevels.ZIRCONIUM, 3056, 10.0f, 5.0f, 18, () -> Ingredient.ofItems(ModItems.ZIRCONIUM_INGOT));
+    ZIRCONIUM(ModMiningLevels.ZIRCONIUM, 3056, 14.0f, 5.0f, 18, () -> Ingredient.ofItems(ModItems.ZIRCONIUM_INGOT));
 //    CORUNDUM(ModMiningLevels.ZIRCONIUM, 4096, 11.0f, 6.0f, 20, () -> Ingredient.ofItems(ModItems.CORUNDUM));
 
     private final int miningLevel;

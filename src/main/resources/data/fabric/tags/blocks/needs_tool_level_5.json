@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "stella-magnus:lunar_basalt_corundum_ore"
+    "stella-magnus:lunar_basalt_corundum_ore",
+    "stella-magnus:corundum_block"
   ]
 }

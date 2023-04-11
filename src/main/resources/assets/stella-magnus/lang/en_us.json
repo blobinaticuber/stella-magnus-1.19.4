@@ -6,7 +6,6 @@
   "item.stella-magnus.zirconium_pickaxe": "Zirconium Pickaxe",
   "item.stella-magnus.zirconium_axe": "Zirconium Axe",
   "item.stella-magnus.zirconium_shovel": "Zirconium Shovel",
-  "item.stella-magnus.zirconium_hoe": "Zirconium Hoe",
 
   "block.stella-magnus.zirconium_block": "Block of Zirconium",
   "block.stella-magnus.lunar_basalt": "Lunar Basalt",
@@ -22,5 +21,6 @@
   "item.stella-magnus.corundum_pickaxe": "Corundum Pickaxe",
   "item.stella-magnus.corundum_axe": "Corundum Axe",
   "item.stella-magnus.corundum_shovel": "Corundum Shovel",
-  "item.stella-magnus.corundum_hoe": "Corundum Hoe"
+
+  "block.stella-magnus.launch_pad": "Launch Pad"
 }

@@ -1,4 +1,4 @@
-// 1.19.4	2023-04-08T22:22:33.268937	Stella Magnus/Recipes
+// 1.19.4	2023-04-10T22:57:34.0618832	Stella Magnus/Recipes
 517df1d758f6ac5568900965b3a5f070ecee9919 data\stella-magnus\advancements\recipes\building_blocks\zirconium_ingot.json
 ed2754f795c8a42ccb1961bbe7803bb9a2713dd6 data\stella-magnus\recipes\zirconium_shard_block.json
 fd45dc00715a2edb9d70be8d1b8a6fd2aa7a56cc data\stella-magnus\advancements\recipes\building_blocks\corundum_block.json
@@ -21,8 +21,8 @@ acf0564e78df44931b978690265c8042ac1a65af data\stella-magnus\recipes\zirconium_in
 c8eb3869955adb31379bb4a11c5fa99a02b1df2e data\stella-magnus\advancements\recipes\tools\corundum_shovel.json
 6ad538d0eed5b0432a377b0d1c30b9cd0c99757e data\stella-magnus\advancements\recipes\building_blocks\corundum.json
 4acba5080b72e87d5710fbccc786e104605c40be data\stella-magnus\recipes\corundum_block.json
-24953d2d7185d2b3a409112cef0cdcf9ab1e0f4b data\stella-magnus\advancements\recipes\tools\corundum_pickaxe.json
 e5dea5bd6b96e1c55f6672c46c029d59cd2b23a5 data\stella-magnus\recipes\corundum_pickaxe.json
+24953d2d7185d2b3a409112cef0cdcf9ab1e0f4b data\stella-magnus\advancements\recipes\tools\corundum_pickaxe.json
 740261d73aba6ac33ebd708f3e68689fc728109f data\stella-magnus\recipes\corundum_shovel.json
 66ae59086786b558eae26fc70cfe7131b234c1ed data\stella-magnus\recipes\zirconium_axe.json
 9d8e904ae9c438b53f65166abd13ad946ce8cb25 data\stella-magnus\recipes\corundum.json

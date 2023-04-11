@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "stella-magnus:lunar_regolith"
+    "stella-magnus:lunar_regolith",
+    "stella-magnus:launch_pad"
   ]
 }

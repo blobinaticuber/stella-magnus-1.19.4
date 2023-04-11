@@ -19,6 +19,18 @@
           }
         },
         {
+          "biome": "stella-magnus:lunar_mare",
+          "parameters": {
+            "temperature": -0.6,
+            "humidity": 0.1,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0.1,
+            "depth": 0,
+            "offset": 0.2
+          }
+        },
+        {
           "biome": "minecraft:lush_caves",
           "parameters": {
             "temperature": -1,
@@ -27,18 +39,6 @@
             "erosion": 0,
             "weirdness": 0,
             "depth": 0.3,
-            "offset": 0
-          }
-        },
-        {
-          "biome": "minecraft:dripstone_caves",
-          "parameters": {
-            "temperature": -0.8,
-            "humidity": 0.2,
-            "continentalness": -1,
-            "erosion": 0,
-            "weirdness": 0,
-            "depth": 0.5,
             "offset": 0
           }
         }

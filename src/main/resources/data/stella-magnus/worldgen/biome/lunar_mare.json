@@ -15,7 +15,8 @@
   "features": [
     [
       "minecraft:basalt_pillar",
-      "stella-magnus:moon_zirconium_ore"
+      "stella-magnus:moon_zirconium_ore",
+      "stella-magnus:moon_corundum_ore"
     ]
 
   ]

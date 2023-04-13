@@ -16,18 +16,6 @@ public class LaunchPadBlock extends Block{
         super(properties);
     }
 
-//    private static final VoxelShape SHAPE = Block.createCuboidShape(0,0,0,16,3,16);
-//    public VoxelShape getShape() {
-//        return SHAPE;
-//    }
-
-//    @Override
-//    public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context){
-//
-//        return Block.createCuboidShape(0,0,0,16,3,16);
-//
-//    }
-
     @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext context) {
         //return VoxelShapes.cuboid(0, 0, 0, 1.0, 0.2, 1);

@@ -22,7 +22,7 @@ public class StellaMagnus implements ModInitializer {
 	public static final String MOD_ID = "stella-magnus";
 	public static final Logger LOGGER = LoggerFactory.getLogger("stella-magnus");
 
-	public static final RegistryKey<PlacedFeature> CUSTOM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier("stella-magnus","moon_zirconium_ore"));
+	public static final RegistryKey<PlacedFeature> CUSTOM_ORE_PLACED_KEY = RegistryKey.of(RegistryKeys.PLACED_FEATURE, new Identifier(StellaMagnus.MOD_ID,"moon_zirconium_ore"));
 
 	@Override
 	public void onInitialize() {
@@ -30,7 +30,7 @@ public class StellaMagnus implements ModInitializer {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		//ModWorldGenerator.generateModWorldGen();
-		//BiomeModifications.addFeature(ModBiomeSelectors.foundInMoon(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);
+		BiomeModifications.addFeature(ModBiomeSelectors.foundInMoon(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);
 		//ModBiomeModifications.addFeature(ModBiomeSelectors.foundInMoon(), GenerationStep.Feature.UNDERGROUND_ORES, CUSTOM_ORE_PLACED_KEY);
 	}
 }

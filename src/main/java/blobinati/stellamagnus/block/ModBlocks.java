@@ -40,6 +40,9 @@ public class ModBlocks{
     public static final LaunchPadBlock LAUNCH_PAD = (LaunchPadBlock) registerBlock("launch_pad",
             new LaunchPadBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool().nonOpaque()), ModItemGroup.STELLAMAGNUS);
 
+    public static final PillarBlock ELECTROLYSIS_STATION =  (PillarBlock) registerBlock("electrolysis_station",
+        new PillarBlock(FabricBlockSettings.of(Material.METAL).strength(4.0f).requiresTool()), ModItemGroup.STELLAMAGNUS);
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registries.BLOCK, new Identifier(StellaMagnus.MOD_ID, name), block);

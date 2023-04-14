@@ -4,6 +4,7 @@ import blobinati.stellamagnus.block.ModBlocks;
 import blobinati.stellamagnus.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
+import net.minecraft.client.util.ModelIdentifier;
 import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
@@ -22,6 +23,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_BASALT_ZIRCONIUM_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_BASALT_CORUNDUM_ORE);
         blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LUNAR_REGOLITH);
+        //blockStateModelGenerator.registerAxisRotated(ModBlocks.ELECTROLYSIS_STATION, );
     }
 
     @Override

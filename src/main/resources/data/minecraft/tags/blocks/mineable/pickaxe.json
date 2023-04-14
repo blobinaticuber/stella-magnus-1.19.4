@@ -7,6 +7,7 @@
     "stella-magnus:zirconium_block",
     "stella-magnus:corundum_block",
     "stella-magnus:zirconium_shard_block",
-    "stella-magnus:launch_pad"
+    "stella-magnus:launch_pad",
+    "stella-magnus:electrolysis_station"
   ]
 }

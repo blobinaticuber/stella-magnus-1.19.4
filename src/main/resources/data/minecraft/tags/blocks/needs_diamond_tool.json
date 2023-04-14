@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "stella-magnus:lunar_regolith",
-    "stella-magnus:launch_pad"
+    "stella-magnus:launch_pad",
+    "stella-magnus:electrolysis_station"
   ]
 }

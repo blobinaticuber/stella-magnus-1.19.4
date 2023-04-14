@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "particle": "stella-magnus:block/electrolysis_bottom",
+    "up": "stella-magnus:block/electrolysis_top",
+    "down": "stella-magnus:block/electrolysis_bottom",
+    "east": "stella-magnus:block/electrolysis_side",
+    "north": "stella-magnus:block/electrolysis_side",
+    "south": "stella-magnus:block/electrolysis_side",
+    "west": "stella-magnus:block/electrolysis_side"
+  }
+}
